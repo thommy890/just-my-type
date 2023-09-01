@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+}
+
+.sentence {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background-color: #aaffaa;
+}
+
+.message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.key {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.key:hover {
+    background-color: #ddd;
+}
+
+.key[data-key=' '] {
+    width: 300px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.long-key {
+    font-size: 14px; /* Reduced font size */
+    text-transform: uppercase;  /* Making text uppercase for compactness */
+    letter-spacing: 1px;  /* Adding a bit of letter spacing */
+    text-align: center;  /* Center aligning text */
+  }
